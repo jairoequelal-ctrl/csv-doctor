@@ -1,0 +1,6 @@
+ customer_id ;name;amount;date;name
+001234; José ;1.234,56;03/04/2026;standard
+001235;Ana;2.345,00;13/04/2026;premium
+001235;Ana;2.345,00;13/04/2026;premium
+001236;Luis;1,234.56;31/02/2026;standard
+001237;Eva;50,00;01/05/2026;standard;EXTRA

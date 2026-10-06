@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "input": {"encoding": "utf-8-sig", "delimiter": ";", "sheet": null},
+  "trim_headers": true,
+  "unique_headers": true,
+  "trim_values": true,
+  "skip_malformed": true,
+  "numeric_columns": [2],
+  "numeric_locale": "es",
+  "date_columns": [3],
+  "date_order": "DMY",
+  "deduplicate_by": [0],
+  "protect_formulas": true
+}

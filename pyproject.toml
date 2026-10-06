@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "csv-doctor-local"
+version = "0.1.0"
+description = "Local CSV/XLSX diagnostics, explicit repair previews and reproducible export recipes"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+authors = [{name = "Jairo Quelal"}]
+dependencies = []
+
+[project.optional-dependencies]
+excel = ["openpyxl>=3.1,<4"]
+
+[project.urls]
+Repository = "https://github.com/jairoequelal-ctrl/csv-doctor"
+Issues = "https://github.com/jairoequelal-ctrl/csv-doctor/issues"
+
+[project.scripts]
+csv-doctor = "csv_doctor.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["csv_doctor*"]
+
+[tool.setuptools.package-data]
+csv_doctor = ["ui.html"]
